@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "enforcementLevel": "compatibility",
+  "libraries": {
+    "manager": [
+      {
+        "name": "Adafruit SSD1306",
+        "version": "2.5.17",
+        "scope": "shared"
+      }
+    ],
+    "managerResolved": [
+      {
+        "name": "Adafruit SSD1306",
+        "version": "2.5.17"
+      }
+    ],
+    "git": []
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 2,
+  "name": "FORKING",
+  "target": {
+    "framework": "arduino",
+    "board": "esp32:esp32:esp32",
+    "options": {},
+    "sketchPath": "IIOT-AE02_TEST_CODE"
+  },
+  "serial": null,
+  "build": {
+    "properties": []
+  },
+  "createdAt": "2026-09-09T10:04:34.402Z",
+  "updatedAt": "2026-09-09T10:04:34.402Z"
+}
