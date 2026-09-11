@@ -82,8 +82,6 @@ void setup() {
   if (!ads2.begin(0x49)) {
     Serial.println("Failed to initialize ADS 2.");
   }
-
-  adcAttachPin(ANALOG_PIN_0);
 }
 
 void loop() {
