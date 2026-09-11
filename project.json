@@ -4,13 +4,28 @@
   "target": {
     "framework": "arduino",
     "board": "esp32:esp32:esp32",
-    "options": {},
-    "sketchPath": "IIOT-AE02_TEST_CODE"
+    "options": {
+      "CPUFreq": "240",
+      "DebugLevel": "none",
+      "EraseFlash": "none",
+      "EventsCore": "1",
+      "FlashFreq": "80",
+      "FlashMode": "qio",
+      "FlashSize": "4M",
+      "JTAGAdapter": "default",
+      "LoopCore": "1",
+      "PartitionScheme": "default",
+      "PSRAM": "disabled",
+      "UploadSpeed": "921600",
+      "ZigbeeMode": "default"
+    }
   },
-  "serial": null,
+  "serial": {
+    "baudRate": 115200
+  },
   "build": {
     "properties": []
   },
   "createdAt": "2026-09-09T10:04:34.402Z",
-  "updatedAt": "2026-09-09T10:04:34.402Z"
+  "updatedAt": "2026-09-11T07:43:04.585Z"
 }
